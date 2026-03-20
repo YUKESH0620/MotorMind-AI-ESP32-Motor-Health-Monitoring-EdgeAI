@@ -1,0 +1,2 @@
+# MotorMind-AI-ESP32-Motor-Health-Monitoring-EdgeAI
+MotorMind AI is an intelligent motor health monitoring system built using ESP32 and TinyML. It captures real-time vibration, temperature, and current data to detect faults such as bearing failure, overheating, and imbalance. The system performs on-device machine learning inference, enabling fast and predictive maintenance without cloud dependency.

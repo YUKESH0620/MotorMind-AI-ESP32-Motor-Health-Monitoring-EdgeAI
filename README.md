@@ -63,17 +63,24 @@ The following flowchart illustrates the complete execution pipeline of the syste
 
 ## 4. Hardware Components
 
-| Component     | Description                                                     |
-| ------------- | --------------------------------------------------------------- |
-| ESP32         | Main processing unit for data acquisition and Edge AI inference |
-| ADXL345       | 3-axis digital accelerometer for vibration monitoring           |
-| ACS712        | Hall-effect current sensor for electrical analysis              |
-| DS18B20       | Digital temperature sensor for thermal monitoring               |
-| IR Sensor     | Pulse-based RPM measurement                                     |
-| OLED Display  | Real-time parameter visualization                               |
-| Arduino UNO   | Dedicated controller for LCD interface                          |
-| LCD Module    | System status display                                           |
-| LEDs & Buzzer | Visual and audible alerts                                       |
+The system consists of the following hardware components:
+
+| S.No | Component            | Quantity | Description |
+|------|---------------------|----------|------------|
+| 1    | ESP32               | 1        | Main microcontroller for data processing and Edge AI inference |
+| 2    | ADXL345             | 1        | 3-axis accelerometer for vibration analysis |
+| 3    | ACS712              | 1        | Hall-effect current sensor for electrical monitoring |
+| 4    | DS18B20             | 1        | Digital temperature sensor for thermal monitoring |
+| 5    | IR Sensor           | 1        | Used for RPM measurement via pulse detection |
+| 6    | OLED Display        | 1        | Displays real-time sensor data |
+| 7    | Arduino UNO         | 1        | Used for controlling LCD display via UART |
+| 8    | LCD Module          | 1        | Displays system status messages |
+| 9    | LEDs                | 3        | Indicate Normal, Warning, and Fault conditions |
+| 10   | Buzzer              | 1        | Provides audible alert for critical faults |
+| 11   | Breadboard          | 1        | Prototyping platform |
+| 12   | Jumper Wires        | Multiple | Electrical connections between components |
+| 13   | Power Supply        | 2        | USB (ESP32) and battery (Arduino) |
+| 14   | Capacitors          | Few      | Used for decoupling and noise filtering |
 
 ---
 

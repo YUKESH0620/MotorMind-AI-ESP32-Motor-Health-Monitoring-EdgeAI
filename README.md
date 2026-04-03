@@ -197,7 +197,7 @@ The system provides multiple output channels:
 
 ### 11.4 Demonstration Video
 
-[Add demo video link here]
+https://youtu.be/cJwQofUENSA
 
 ---
 

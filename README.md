@@ -244,7 +244,7 @@ Full technical documentation is available in:
 
 ## 16. Author
 
-Yukesh S
+Yukesh.S
 B.E Electrical and Electronics Engineering
 College of Engineering, Guindy (Anna University)
 
